@@ -250,9 +250,9 @@ def disease_prediction():
             return render_template('disease.html', title=title)
         try:
             img = file.read()
-
             prediction = predict_image(img)
             print(prediction)
+            sys.stdout.flush()
             prediction = Markup(str(disease_dic[prediction]))
             return render_template('disease-result.html', prediction=prediction, title=title)
         except:
