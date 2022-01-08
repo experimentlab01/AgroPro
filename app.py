@@ -245,8 +245,10 @@ def disease_prediction():
     if request.method == 'POST':
         if 'file' not in request.files:
             return redirect(request.url)
-        file = request.files.get('file')
+        file = request.files['file']
         if not file:
+            print("file error")
+            sys.stdout.flush()
             return render_template('disease.html', title=title)
         try:
             img = file.read()
