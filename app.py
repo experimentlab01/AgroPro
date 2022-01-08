@@ -14,6 +14,7 @@ from torchvision import transforms
 from PIL import Image
 from utils.model import ResNet9
 import os
+import logging
 # ==============================================================================================
 
 # -------------------------LOADING THE TRAINED MODELS -----------------------------------------------
