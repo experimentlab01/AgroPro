@@ -5,12 +5,11 @@
 According to the UN, Nearly 1/2 of all fruit & vegetables produced globally are wasted each year. With decreasing energy and resources across the planet, **Harvestify** was made to promote better yield among farmers and better health among malnourished people and animals. Also, we know that it might be difficult for farmers to use websites, we have integrated the functionalities of this website in the form of a WhatsApp Bot as well in order to reach a greater target audience.
 
 ## What it does  
-
 ---
 
 ### The Website-  
 
-![Alt text](https://media.discordapp.net/attachments/929470498201563136/929497240127565854/Screenshot_2022-01-09_at_3.37.51_AM.png)  
+![Alt text](website.png)  
 
 ---
 **1. Crop Recommendation -** In the crop recommendation application, the user can provide the soil data(Nitrogen, Phosphorus, Potassium concentrations, pH value, Rainfall in mm, State and City) from their side and the application will recommend which crop the user should grow. We have used an open weather API to automatically check the temperature, moisture, and humidity for the location provided.  
