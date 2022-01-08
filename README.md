@@ -84,7 +84,8 @@ We learnt about how to take Machine Learning to the next level by using it with 
 We are also looking forward to bring this service to our mobile phones. And, if we could collaborate with botanists then we can take this project to the next level.
 
 ## Try It Out 
-[AgroPro](http://agropro56.herokuapp.com/disease-predict)
+[AgroPro](http://agropro56.herokuapp.com/disease-predict)  
+
 [Try the AgroPro WhatsApp Bot](http://wa.me/+14155238886?text=join%20prevent-animal)
 
 ## Built With
