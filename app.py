@@ -9,20 +9,16 @@ import requests
 import config
 import pickle
 import io
-import torch
 from torchvision import transforms
 from PIL import Image
 from utils.model import ResNet9
-import os
-import logging
+import torch
 # ==============================================================================================
 
 # -------------------------LOADING THE TRAINED MODELS -----------------------------------------------
 
 # Loading plant disease classification model
-gunicorn_logger = logging.getLogger('gunicorn.error')
-app.logger.handlers = gunicorn_logger.handlers
-app.logger.setLevel(gunicorn_logger.level)
+
 disease_classes = ['Apple___Apple_scab',
                    'Apple___Black_rot',
                    'Apple___Cedar_apple_rust',
@@ -241,6 +237,7 @@ def fert_recommend():
 
 # render disease prediction result page
 
+
 @app.route('/disease-predict', methods=['GET', 'POST'])
 def disease_prediction():
     title = 'Agropro - Disease Detection'
@@ -258,8 +255,7 @@ def disease_prediction():
 
             prediction = Markup(str(disease_dic[prediction]))
             return render_template('disease-result.html', prediction=prediction, title=title)
-        except Exception as e:
-            app.logger.error(e)
+        except:
             pass
     return render_template('disease.html', title=title)
 
