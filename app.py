@@ -245,7 +245,7 @@ def disease_prediction():
     if request.method == 'POST':
         if 'file' not in request.files:
             return redirect(request.url)
-        file = request.files['file']
+        file = request.files.get('file','')
         if not file:
             print("file error")
             sys.stdout.flush()
