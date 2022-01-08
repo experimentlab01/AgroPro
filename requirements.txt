@@ -2,6 +2,7 @@ Flask==1.1.2
 numpy==1.19.4
 pandas==1.1.4
 pickleshare==0.7.5
-torch==0.4.0+cpu
-torchvision==0.2.2+cpu 
 urllib3==1.26.2
+-f https://download.pytorch.org/whl/torch_stable.html
+torch==0.4.0+cpu
+torchvision==0.2.2+cpu
