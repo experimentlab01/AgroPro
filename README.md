@@ -4,7 +4,10 @@
 ## Inspiration
 According to the UN, Nearly 1/2 of all fruit & vegetables produced globally are wasted each year. With decreasing energy and resources across the planet, **Harvestify** was made to promote better yield among farmers and better health among malnourished people and animals. Also, we know that it might be difficult for farmers to use websites, we have integrated the functionalities of this website in the form of a WhatsApp Bot as well in order to reach a greater target audience.
 
-## What it does
+## What it does  
+
+---
+
 ### The Website-  
 
 ![Alt text](https://media.discordapp.net/attachments/929470498201563136/929497240127565854/Screenshot_2022-01-09_at_3.37.51_AM.png)  
