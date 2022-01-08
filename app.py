@@ -19,7 +19,9 @@ import os
 # -------------------------LOADING THE TRAINED MODELS -----------------------------------------------
 
 # Loading plant disease classification model
-
+gunicorn_logger = logging.getLogger('gunicorn.error')
+app.logger.handlers = gunicorn_logger.handlers
+app.logger.setLevel(gunicorn_logger.level)
 disease_classes = ['Apple___Apple_scab',
                    'Apple___Black_rot',
                    'Apple___Cedar_apple_rust',
@@ -238,28 +240,25 @@ def fert_recommend():
 
 # render disease prediction result page
 
-
 @app.route('/disease-predict', methods=['GET', 'POST'])
 def disease_prediction():
     title = 'Agropro - Disease Detection'
 
     if request.method == 'POST':
-        upload = request.files.getlist("file")[0]
-        print("File name: {}".format(upload.filename))
-        filename = upload.filename
-        ext = os.path.splitext(filename)[1]
-        if (ext == ".jpg") or (ext == ".png") or (ext == ".bmp"):
-            print("File accepted")
-        else:
+        if 'file' not in request.files:
+            return redirect(request.url)
+        file = request.files.get('file')
+        if not file:
             return render_template('disease.html', title=title)
         try:
-            img = filename.read()
+            img = file.read()
+
             prediction = predict_image(img)
-            print(prediction)
-            sys.stdout.flush()
+
             prediction = Markup(str(disease_dic[prediction]))
             return render_template('disease-result.html', prediction=prediction, title=title)
-        except:
+        except Exception as e:
+            app.logger.error(e)
             pass
     return render_template('disease.html', title=title)
 
