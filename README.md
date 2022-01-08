@@ -29,7 +29,8 @@ According to the UN, Nearly 1/2 of all fruit & vegetables produced globally are 
 ---  
 
 
-**Add Ons**
+**Add Ons**  
+
 **1. Soil Classification -** We have also created this add-on streamlit based soil classification application, for you to classify soil with the help of an image of  the soil.  
 
 ![Alt text](https://media.discordapp.net/attachments/926835257444028536/929441250585751594/Screenshot_2022-01-08_at_11.57.10_PM.png)  
