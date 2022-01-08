@@ -5,20 +5,24 @@
 According to the UN, Nearly 1/2 of all fruit & vegetables produced globally are wasted each year. With decreasing energy and resources across the planet, **Harvestify** was made to promote better yield among farmers and better health among malnourished people and animals. Also, we know that it might be difficult for farmers to use websites, we have integrated the functionalities of this website in the form of a WhatsApp Bot as well in order to reach a greater target audience.
 
 ## What it does
-### The Website-
+### The Website-  
+
+![Alt text](https://media.discordapp.net/attachments/929470498201563136/929497240127565854/Screenshot_2022-01-09_at_3.37.51_AM.png)  
+
+---
 **1. Crop Recommendation -** In the crop recommendation application, the user can provide the soil data(Nitrogen, Phosphorus, Potassium concentrations, pH value, Rainfall in mm, State and City) from their side and the application will recommend which crop the user should grow. We have used an open weather API to automatically check the temperature, moisture, and humidity for the location provided.  
 
-![Alt text](https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/631/447/datas/original.png)  
+![Alt text](https://media.discordapp.net/attachments/929470498201563136/929497239641018378/Screenshot_2022-01-09_at_3.38.16_AM.png)  
 
 ---
 **2. Fertilizer Recommendation -** In the fertilizer recommendation application, the user can input the soil data and the type of crop they are growing, and the application will predict what the soil lacks or has an excess of and will recommend improvements accordingly.  
 
-![Alt text](https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/631/445/datas/original.png)  
+![Alt text](https://media.discordapp.net/attachments/929470498201563136/929497239280312380/Screenshot_2022-01-09_at_3.38.37_AM.png)  
 
 ---
 **3. Disease Prediction -** In the disease prediction application, the user can upload the image of the crop with the disease, and the model will predict the disease, tell the cause of it and recommend its cure.  
 
-![Alt text](https://media.discordapp.net/attachments/926835257444028536/929439628472234084/Screenshot_2022-01-08_at_11.47.27_PM.png)  
+![Alt text](https://media.discordapp.net/attachments/929470498201563136/929497238999281744/Screenshot_2022-01-09_at_3.39.03_AM.png)  
 
 ---  
 
@@ -102,3 +106,5 @@ streamlit
 tensorflow  
 torch  
 twilio`
+
+![Alt text](https://media.discordapp.net/attachments/929470498201563136/929497238751805540/Screenshot_2022-01-09_at_3.39.29_AM.png)
