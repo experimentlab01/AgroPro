@@ -13,6 +13,7 @@ import torch
 from torchvision import transforms
 from PIL import Image
 from utils.model import ResNet9
+import os
 # ==============================================================================================
 
 # -------------------------LOADING THE TRAINED MODELS -----------------------------------------------
@@ -243,15 +244,16 @@ def disease_prediction():
     title = 'Agropro - Disease Detection'
 
     if request.method == 'POST':
-        if 'file' not in request.files:
-            return redirect(request.url)
-        file = request.files.get('file','')
-        if not file:
-            print("file error")
-            sys.stdout.flush()
+        upload = request.files.getlist("file")[0]
+        print("File name: {}".format(upload.filename))
+        filename = upload.filename
+        ext = os.path.splitext(filename)[1]
+        if (ext == ".jpg") or (ext == ".png") or (ext == ".bmp"):
+            print("File accepted")
+        else:
             return render_template('disease.html', title=title)
         try:
-            img = file.read()
+            img = filename.read()
             prediction = predict_image(img)
             print(prediction)
             sys.stdout.flush()
