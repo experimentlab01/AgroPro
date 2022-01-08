@@ -1,8 +1,8 @@
-# AgroPro
+# Harvestify by AgroPro
 ## For DotSlash Hackathon
 
 ## Inspiration
-According to the UN, Nearly 1/2 of all fruit & vegetables produced globally are wasted each year. With decreasing energy and resources across the planet, this project was made to promote better yield among farmers and better health among malnourished people and animals. Also, we know that it might be difficult for farmers to use websites, we have integrated the functionalities of these website in the form of a WhatsApp Bot as well in order to reach a greater target audience.
+According to the UN, Nearly 1/2 of all fruit & vegetables produced globally are wasted each year. With decreasing energy and resources across the planet, **Harvestify** was made to promote better yield among farmers and better health among malnourished people and animals. Also, we know that it might be difficult for farmers to use websites, we have integrated the functionalities of this website in the form of a WhatsApp Bot as well in order to reach a greater target audience.
 
 ## What it does
 ### The Website-
@@ -80,13 +80,13 @@ The implementation of the entire project helped us realize the importance of col
 ## What we learned
 We learnt about how to take Machine Learning to the next level by using it with front end and backend development to empower our project and make it usable for everyone around the world. The major takeaway was about how we can use our skillset and help the planet be a better place. We also learnt how to use Twilio based WhatsApp Bots and how to integrate them with ML models.
 
-## What's next for AgroPro
+## What's next for Harvestify by AgroPro
 We are also looking forward to bring this service to our mobile phones. And, if we could collaborate with botanists then we can take this project to the next level.
 
 ## Try It Out 
-[AgroPro](http://agropro56.herokuapp.com/disease-predict)  
+[Harvestify by AgroPro](https://agropro-hack.herokuapp.com/)  
 
-[Try the AgroPro WhatsApp Bot](http://wa.me/+14155238886?text=join%20prevent-animal)
+[Try the Harvestify WhatsApp Bot](http://wa.me/+14155238886?text=join%20prevent-animal)
 
 ## Built With
 `ai  
