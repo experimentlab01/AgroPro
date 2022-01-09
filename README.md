@@ -14,17 +14,17 @@ According to the UN, Nearly 1/2 of all fruit & vegetables produced globally are 
 ---
 **1. Crop Recommendation -** In the crop recommendation application, the user can provide the soil data(Nitrogen, Phosphorus, Potassium concentrations, pH value, Rainfall in mm, State and City) from their side and the application will recommend which crop the user should grow. We have used an open weather API to automatically check the temperature, moisture, and humidity for the location provided.  
 
-![Alt text](https://media.discordapp.net/attachments/929470498201563136/929497239641018378/Screenshot_2022-01-09_at_3.38.16_AM.png)  
+![Alt text]()  
 
 ---
 **2. Fertilizer Recommendation -** In the fertilizer recommendation application, the user can input the soil data and the type of crop they are growing, and the application will predict what the soil lacks or has an excess of and will recommend improvements accordingly.  
 
-![Alt text](https://media.discordapp.net/attachments/929470498201563136/929497239280312380/Screenshot_2022-01-09_at_3.38.37_AM.png)  
+![Alt text]()  
 
 ---
 **3. Disease Prediction -** In the disease prediction application, the user can upload the image of the crop with the disease, and the model will predict the disease, tell the cause of it and recommend its cure.  
 
-![Alt text](https://media.discordapp.net/attachments/929470498201563136/929497238999281744/Screenshot_2022-01-09_at_3.39.03_AM.png)  
+![Alt text]()  
 
 ---  
 
@@ -110,4 +110,4 @@ tensorflow
 torch  
 twilio`
 
-![Alt text](https://media.discordapp.net/attachments/929470498201563136/929497238751805540/Screenshot_2022-01-09_at_3.39.29_AM.png)
+![Alt text]()
