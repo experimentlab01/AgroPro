@@ -1,4 +1,4 @@
-# Harvestify by AgroPro
+# AgroPro
 ## For DotSlash Hackathon
 
 ## Inspiration
