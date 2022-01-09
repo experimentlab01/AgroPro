@@ -1,5 +1,4 @@
 # AgroGrow by AgroPro
-## For DotSlash Hackathon
 
 ## Inspiration
 According to the UN, Nearly 1/2 of all fruit & vegetables produced globally are wasted each year. With decreasing energy and resources across the planet, **AgroGrow** was made to promote better yield among farmers and better health among malnourished people and animals. Also, we know that it might be difficult for farmers to use websites, we have integrated the functionalities of this website in the form of a WhatsApp Bot as well in order to reach a greater target audience.
