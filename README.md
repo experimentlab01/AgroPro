@@ -71,11 +71,11 @@ The bot is developed in a way that it takes up the language with which you messa
 
 
 ## How we built it
-✅ We build the Machine learning model using images. We have used various types of image processing and image segmentation algorithms to find the soil type from the image.  
-✅ Website is built using a html, css, python, flask, Machine learning.  
-✅ Build crop and fertilizer prediction model using flask and python.  
-✅ Build disease perdition model using ML and image segmentation (random forest classifier).  
-✅ Integrated a google map for the nearest nursery.  
+✅ We built the Machine learning model using images. We have used various types of image processing and image segmentation algorithms to find the soil type from the image.  
+✅ Website is built using a html, css, python, flask, streamlit  and machine learning models.  
+✅ Built crop and fertilizer prediction model using random forest classifier and data.  
+✅ Built disease prediction model using image segmentation and plant disease model.  
+✅ Integrated a Google Map for the nearest nursery.  
 ✅ The WhatsApp Bot is built using Twilio and python and the solutions are provided using all the models developed for the website.  
 
 ## Challenges we ran into
@@ -88,7 +88,7 @@ The implementation of the entire project helped us realize the importance of col
 We learnt about how to take Machine Learning to the next level by using it with front end and backend development to empower our project and make it usable for everyone around the world. The major takeaway was about how we can use our skillset and help the planet be a better place. We also learnt how to use Twilio based WhatsApp Bots and how to integrate them with ML models.
 
 ## What's next for Harvestify by AgroPro
-We are also looking forward to bring this service to our mobile phones. And, if we could collaborate with botanists then we can take this project to the next level.
+We are also looking forward to bring this service to our mobile phones. And, if we could collaborate with botanists then we can take this project to the next level. We also want to make a SMS based bot, so that it could reach more people.
 
 ## Try It Out 
 [Harvestify by AgroPro](https://agropro-hack.herokuapp.com/)  
