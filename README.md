@@ -92,8 +92,6 @@ We are also looking forward to bring this service to our mobile phones. And, if 
 ## Try It Out 
 [AgroGrow by AgroPro](https://agropro-hack.herokuapp.com/)  
 
-[Try the AgroGrow WhatsApp Bot](http://wa.me/+14155238886?text=join%20prevent-animal)
-
 ## Built With
 `ai  
 api  
